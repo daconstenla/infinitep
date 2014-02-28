@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<es.daconstenla.infinip.customcomponents.pieces.data.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/es.daconstenla.infinip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/customGreyLight2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+    <es.daconstenla.infinip.customcomponents.HorizontalGraph
+        android:id="@+id/HorizontalBar"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        custom:displayHours="true"
+        custom:highlightStrength="0.9"
+        custom:singleViewMode="false"
+        custom:spaceBetweenBars="3.0" >
+
+    </es.daconstenla.infinip.customcomponents.HorizontalGraph>
+
+    <es.daconstenla.infinip.customcomponents.InformationBox
+        android:id="@+id/SleepBox"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    </LinearLayout>
+
+</es.daconstenla.infinip.customcomponents.pieces.data.CustomScrollView> 

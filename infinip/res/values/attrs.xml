@@ -1,0 +1,21 @@
+<resources>
+    
+    <declare-styleable name="HorizontalBarActivityGraph">
+        <attr name="spaceBetweenBars" format="float"/>
+        <attr name="numberOfVisibleHours" format="integer"/>
+        <attr name="minWithVisible" format="float"/>
+        <attr name="singleViewMode" format="boolean"/>
+        <attr name="highlightStrength" format="float"/>
+        <attr name="HeightBarBorder" format="float"/>
+        <attr name="displayHours" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="InformationBox">
+        
+    </declare-styleable>
+    
+    <declare-styleable name="Calendar">
+        
+    </declare-styleable>
+    
+</resources>

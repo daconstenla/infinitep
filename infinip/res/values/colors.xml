@@ -1,0 +1,83 @@
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+	<!-- MainViewColors -->
+    <color name="customGreyLight2">#ffE6E3E3</color>
+    <color name="customGreyLight1">#ffCECCCC</color>
+    <color name="customGreyDark2">#ff615F5F</color>
+    <color name="customGreyDark1">#ff8B8A8A</color>
+    
+    <color name="backgroundGraphBorder">#ffd1cfcf</color>
+    <color name="backgroundGraph">#ffFFFFFF</color>
+    <color name="backgroundActionBar">#ff212121</color>
+    <color name="backgroundDownActionBar">#ff373737</color>
+    <color name="buttonsGreyColor">#ffACACAC</color>
+    
+    <!-- Activity's colors -->
+    <color name="activityDarkRed">#ffcc0000</color> <!-- Dark Red -->
+    <color name="activityNormalRed">#ffff4444</color> <!-- Normal Red -->
+    <color name="activityLightRed">#ffe57f7f</color> <!-- light Red -->
+    <color name="activityLight2Red">#fffea1a1</color> <!-- light2 Red -->
+    <color name="activityLighterRed">#ffffe1da</color> <!-- lighter Red -->
+    
+    <color name="activityDarkOrange">#fffe8800</color> <!-- Dark Orange-->
+    <color name="activityNormalOrange">#ffffbb33</color> <!-- Normal Orange -->
+    <color name="activityLightOrange">#fffec37f</color> <!-- light Orange -->
+    <color name="activityLight2Orange">#fffedc98</color> <!-- light2 Orange -->
+    <color name="activityLighterOrange">#fffeefc6</color> <!-- lighter Orange -->
+    
+    <color name="activityDarkBlue">#ff0099cc</color> <!-- Dark Blue-->
+    <color name="activityNormalBlue">#ff33b5e5</color> <!-- Normal Blue-->
+    <color name="activityLightBlue">#ff7fcbe5</color> <!-- light Blue-->
+    <color name="activityLight2Blue">#ff98d9f1</color> <!-- light2 Blue-->
+    <color name="activityLighterBlue">#ffd3effc</color> <!-- lighter Blue -->
+    
+    <color name="activityDarkGreen">#ff669900</color> <!-- Dark Green -->
+    <color name="activityNormalGreen">#ff99cc00</color> <!-- Normal Green -->
+    <color name="activityLightGreen">#ffb2cb7f</color> <!-- light Green -->
+    <color name="activityLight2Green">#ffcbe57f</color> <!-- light2 Green -->
+    <color name="activityLighterGreen">#ffeff6cd</color> <!-- lighter Green -->
+    
+    
+    <!-- Calendar Colors -->
+    <color name="calendarTextColorMonthYear">#ff6d6d6d</color>
+    <color name="calendarTextColorWeekDays">#ff9f9f9f</color>
+    <color name="calendarTextColorPrevNextMonth">#ffd0d0d0</color>
+    <color name="calendarTextColorCurrentDay">#ff6d6d6d</color>
+    <color name="calendarBackgroundCurrentDay">#ffe7e7e7</color>
+    <color name="calendarBackgroundSelectedDay">#fff0f0f0</color>    
+    
+</resources>
+
+<!-- old colors
+
+	<color name="customOrangeLight">#ffF9B939</color>
+    <color name="customOrangeNormal">#ffF9B939</color>
+    <color name="customOrangeDark">#ba841b</color>
+    
+    <color name="customRedLight">#ffF17D62</color>
+    <color name="customRedNormal">#ffF17D62</color>
+    <color name="customRedDark">#ffEF6E50</color>
+    
+    <color name="customBlueLight">#ff9BE4FF</color>
+    <color name="customBlueNormal">#ff9BE4FF</color>
+    <color name="customBlueDark">#ff3EC3F3</color>
+    
+    <color name="customGreenLight">#ffB9E72D</color>
+    <color name="customGreenNormal">#ffB9E72D</color>
+    <color name="customGreenDark">#ff79A103</color>
+    
+-->

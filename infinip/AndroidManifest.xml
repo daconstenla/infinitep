@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.daconstenla.infinip"
+    android:versionCode="06"
+    android:versionName="0.6" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        
+        <!-- Splash View, parent : no parent -->
+        <activity
+            android:name="es.daconstenla.infinip.activity.SplashActivity"
+            android:label="@string/app_name" 
+            android:icon="@drawable/ic_launcher_alt"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:configChanges="orientation|screenSize">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<!-- Main View, parent : no parent, coming from Splash View -->        
+        <activity
+            android:name="es.daconstenla.infinip.activity.MainActivity"
+            android:label="@string/app_name" 
+            android:icon="@drawable/ic_launcher_alt"
+            android:theme="@android:style/Theme.Black"
+            android:configChanges="orientation|screenSize">
+        </activity>
+        
+        <!-- Range Date View, parent : Main View -->        
+        <activity
+        	android:name="es.daconstenla.infinip.activity.RangeActivityinip"
+            android:parentActivityName="es.daconstenla.infinip.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" 
+            android:icon="@drawable/ic_launcher_alt">
+        </activity>
+        
+        <!-- Sync View, parent : Main View -->
+        <activity
+        	android:name="es.daconstenla.infinip.activity.SyncActivity"
+            android:parentActivityName="es.daconstenla.infinip.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:icon="@drawable/ic_launcher_alt">
+        </activity>
+        
+        <!-- Settings View, parent : Main View -->
+        <activity
+            android:name="es.daconstenla.infinip.activity.Settings"
+            android:parentActivityName="es.daconstenla.infinip.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:icon="@drawable/ic_launcher_alt">
+        </activity>
+        
+        <!-- Calendar View, parent : Main View -->
+        <activity
+        	android:name="es.daconstenla.infinip.activity.CalendarActivity"
+            android:parentActivityName="es.daconstenla.infinip.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|screenSize"
+            android:icon="@drawable/ic_launcher_alt">
+        </activity>
+        
+        <!-- Single Day View, parent : Calendar -->
+        <activity
+            android:parentActivityName="es.daconstenla.infinipes.daconstenla.infinip.activity.CalendarActivity"
+            android:name="es.daconstenla.infinip.CalendarActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:icon="@drawable/ic_launcher_alt">
+        </activity>
+        
+        
+    </application>
+
+</manifest>

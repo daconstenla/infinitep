@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_background" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/logoView"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:contentDescription="@string/logo_description"
+                android:src="@drawable/splash_1_white" />
+			
+			<ProgressBar
+			    android:id="@+id/progressBar2"
+			    android:layout_width="match_parent"
+			    android:layout_height="0dip"
+                android:layout_weight="1"
+			    android:padding="20dp"
+			    android:paddingBottom="@dimen/activity_horizontal_margin" />
+			
+			<Button
+			    android:id="@+id/button1"
+			    style="?android:attr/buttonStyleSmall"
+			    android:layout_width="match_parent"
+			    android:layout_height="0dip"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:onClick="testButton"
+			    android:text="@string/app_name" />
+			
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>
